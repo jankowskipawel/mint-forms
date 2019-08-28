@@ -1,11 +1,13 @@
 body {
   background-color: #eceef1;
-  font: Helvetica;
+  font-family: 'Source Code Pro', monospace, Helvetica;
+  letter-spacing: -1px;
 }
 
 header {
   height: 70px;
   float: right;
+  display: inline;
 }
 
 header button {
@@ -16,6 +18,21 @@ header button {
   border: 1px solid #4c4c4c;
   border-radius: 4px;
   font-size: 1.125em;
+  float: right;
+}
+
+.log-in {
+  position: absolute;
+  right: 120px;
+}
+
+header p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.recovery:visited {
+  color: #0077C5;
 }
 
 .form {
