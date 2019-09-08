@@ -32,12 +32,16 @@ header p {
   font-size: 12px;
 }
 
-.blue-link:visited {
+.blue-link:visited, .forgotten:visited {
   color: #0077C5;
 }
 
-.blue-link {
+.blue-link, .forgotten {
   text-decoration: none;
+}
+
+.blue-link:hover {
+  text-decoration: underline;
 }
 
 .small-margins {
@@ -83,7 +87,7 @@ input, label {
 label {
   font-size: 14px;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -99,4 +103,26 @@ input {
   text-align: left;
   margin-left: 28px;
   margin-top: 2px;
+}
+
+.btn {
+  color: white;
+  background: #0077C5;
+  width: 325px;
+  height: 44px;
+  border: #0077C5;
+  border-radius: 4px;
+  font-size: 1.125em;
+  margin-top: 25px;
+}
+
+.btn:hover {
+  background: rgb(27, 131, 201);
+}
+
+.terms {
+  font-size: 12px;
+  color: #757575;
+  width: 300px;
+  margin-left: 45px;
 }
